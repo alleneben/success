@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby</title>
+
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Success</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu-alt-right"></i>
+            </div>
+        </nav>
+        <!-- <div class="myDIV">Hover over me.</div>
+        <div class="hide">I am shown when someone hovers over the div above.</div> -->
+    </header>
+    
+    <main class="1-main">
+        <!-- ============= HOME =================== -->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title"><span class="home__title-color">Still with your eyes on the goal, I wish you the very best in your final exams!!!</span> <br><span class="home__title-color" id="quick">Software Engineer</span><br>Success Ruby</h1>
+                <a href="#" class="button">Contact</a>
+            </div>
+
+            <div class="home__social">
+                <a href="#" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="home__social-icon"><i class="bx bxl-github"></i></a>
+                <a href="#" class="home__social-icon"><i class="bx bxl-twitter"></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/home.png" alt="home">
+            </div>
+        </section>
+
+
+        <!-- ===== ABOUT ======== -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/she.jpg" alt="about">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Success</h2>
+                    <p class="about__text">This is to remind you of how relentless you have been. No matter the circumstances, you have been able to come this far by grace. Never give up now!!!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====SKILLS======= -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="shills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">You cannot give up now. you have come too far from where you started from. Nobody told you its gonna be easy. But I dont believe He (GOD) has brought you this far to leave you!!</p>
+                    
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxl-html5 skills__icon"></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">40%</span>
+                        </div>
+                        <div class="skills__bar skills__html"></div>
+                    </div>
+
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxl-css3 skills__icon"></i>
+                            <span class="skills__name">CSS</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">35%</span>
+                        </div>
+                        <div class="skills__bar skills__css"></div>
+                    </div>
+
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxl-javascript skills__icon"></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">20%</span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/skills.jpg" alt="skills" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ==================WORK============= -->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="assets/img/work2.png" alt="wokr 1">
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/skills.jpg" alt="wokr 1">
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work3.jpg" alt="wokr 1">
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work4.png" alt="wokr 1">
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work5.jpg" alt="wokr 1">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========= CONTACT ========== -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                    <input type="button" value="Submit" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============FOOTER================ -->
+    <footer class="footer">
+        <p class="footer__title">Success</p>
+
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+        </div>
+        <p>&#169; 2021 copyright all rights reserved</p>
+    </footer>
+
+
+     <!--========== SCROLL REVEAL ==========-->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!--========== MAIN JS ==========-->
+     <script src="assets/js/main.js"></script>
+</body>
+</html>
